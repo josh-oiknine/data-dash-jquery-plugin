@@ -1,0 +1,42 @@
+============================================================================
+
+Data Dash jQuery Plugin
+
+============================================================================
+
+Created by Josh Oiknine. @joshOiknine
+
+============================================================================
+
+Thank you for downloading the Data Dash jQuery Plugin.
+
+
+Instalation & usage:
+
+<html>
+<head>
+<script src="/js/1.5/jquery.min.js"></script>
+<script src="/js/datadash.jquery.js"></script>
+<script>
+	$(function(){
+		alert( $('#element').datadash('title') ); // alerts "test";
+	});
+</script>
+</head>
+<body>
+	<div id="element" data-title="test"> ... </div>
+</body>
+</html>
+
+============================================================================
+
+Note when calling the datadash function you don't need to include the data-
+portion of the attribute in order to save time and code.
+
+============================================================================
+
+GPL license:
+http://www.gnu.org/licenses/gpl.html
+
+MIT license:
+http://www.opensource.org/licenses/mit-license.php
